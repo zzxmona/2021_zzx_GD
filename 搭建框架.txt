@@ -1,0 +1,19 @@
+npx create-react-app final //创建react项目
+yarn add web3 //导入web3
+yarn add react-router-dom //导入路由组件
+yarn add antd //导入antd组件
+yarn add ipfs-http-client //导入ipfs
+
+
+//ipfs 配置设置
+ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "[\"PUT\", \"POST\", \"GET\", \"OPTIONS\"]"
+ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[\"*\"]"
+ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials "[\"true\"]"
+ipfs config --json API.HTTPHeaders.Access-Control-Allow-Headers "[\"Authorization\"]"
+ipfs config --json API.HTTPHeaders.Access-Control-Expose-Headers "[\"Location\"]"
+
+跨域解决方法：https://jingyan.baidu.com/article/148a1921c9dbf24d71c3b11f.html
+
+npm install -g yarn //添加yarn
+
+首先需要安装node.js
